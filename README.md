@@ -14,11 +14,11 @@ Advanced Computer Vision LAB, National Cheng Kung University
 
 ## Overview
 
-<img src=".\figures\overview.png" width="400"/>
+<img src=".\figures\overview.png" width="500"/>
 
 <img src=".\figures\drct_fix.gif" width="600"/>
 
-<img src=".\figures\overview.png" width="600"/>
+<img src=".\figures\4.png" width="400"/>
 
 **Benchmark results on SRx4 without x2 pretraining. Mulit-Adds are calculated for a 64x64 input.**
 | Model | Params(M) | Multi-Adds(G) | Forward orBackward pass | FLOPs | Set5 | Set14 | BSD100 | Urban100 | Manga109 |

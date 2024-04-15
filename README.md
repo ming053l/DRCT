@@ -22,7 +22,7 @@ Advanced Computer Vision LAB, National Cheng Kung University
 
 **Benchmark results on SRx4 without x2 pretraining. Mulit-Adds are calculated for a 64x64 input.**
 | Model | Params | Multi-Adds | Forward | FLOPs | Set5 | Set14 | BSD100 | Urban100 | Manga109 |
-|-------|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
+|--------|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
 | [HAT](https://github.com/JingyunLiang/SwinIR) |   9.62M    | 11.22G | 2053M | 42.18G | 33.04 | 29.23 | 28.00 | 27.97 | 32.48 |
 | DRCT |   10.44M  | 5.92G | 1857M | 7.92G | 33.11 | 29.35 | 28.18 | 28.06 | 32.59 |
 | [HAT-L](https://github.com/JingyunLiang/SwinIR) |   40.84M    | 76.69G | 5165M | 79.60G | 33.30 | 29.47 | 28.09 | 28.60 | 33.09 |

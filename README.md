@@ -12,9 +12,22 @@
 
 Advanced Computer Vision LAB, National Cheng Kung University
 
-<img src=".\figures\overview.png" width="600"/>
+## Overview
+
+<img src=".\figures\overview.png" width="400"/>
 
 <img src=".\figures\drct_fix.gif" width="600"/>
+
+<img src=".\figures\overview.png" width="600"/>
+
+**Benchmark results on SRx4 without x2 pretraining. Mulit-Adds are calculated for a 64x64 input.**
+| Model | Params(M) | Multi-Adds(G) | Forward orBackward pass | FLOPs | Set5 | Set14 | BSD100 | Urban100 | Manga109 |
+|-------|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
+| [HAT](https://github.com/JingyunLiang/SwinIR) |   9.621M    | 11.22G | 2053.42M | 42.18G | 33.04 | 29.23 | 28.00 | 27.97 | 32.48 |
+| DRCT |   10.443M  | 5.92G | 1857.55M | 7.92G | 33.11 | 29.35 | 28.18 | 28.06 | 32.59 |
+| [HAT-L](https://github.com/JingyunLiang/SwinIR) |   40.846M    | 76.69G | 5165.39M | 79.60G | 33.30 | 29.47 | 28.09 | 28.60 | 33.09 |
+| DRCT-L |  27.580M    | 9.20G | 4278.19M | 11.07G | 33.37 | 29.54 | 28.16 | 28.70 | 33.14 |
+
 
 ## Updates
 

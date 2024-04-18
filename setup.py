@@ -82,15 +82,15 @@ def get_requirements(filename='requirements.txt'):
 if __name__ == '__main__':
     write_version_py()
     setup(
-        name='hat',
+        name='drct',
         version=get_version(),
-        description='HAT',
+        description='DRCT',
         long_description=readme(),
         long_description_content_type='text/markdown',
-        author='Xiangyu Chen',
-        author_email='chxy95@gmail.com',
+        author='Chia-Ming Lee',
+        author_email='zuw408421476@gmail.com',
         keywords='computer vision, pytorch, basicsr, image restoration, super-resolution',
-        url='https://github.com/chxy95/HAT',
+        url=https://github.com/ming053l/DRCT',
         include_package_data=True,
         packages=find_packages(exclude=('options', 'datasets', 'experiments', 'results', 'tb_logger', 'wandb')),
         classifiers=[

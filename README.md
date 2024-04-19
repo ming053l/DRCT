@@ -54,13 +54,15 @@ Advanced Computer Vision LAB, National Cheng Kung University
 - [PyTorch >= 1.7](https://pytorch.org/) **(Recommend **NOT** using torch 1.8!!! It would cause abnormal performance.)**
 - [BasicSR == 1.3.4.9](https://github.com/XPixelGroup/BasicSR/blob/master/INSTALL.md) 
 ### Installation
-Install Pytorch first.
-Then,
 ```
+git clone https://github.com/ming053l/DRCT.git
+conda create --name drct python=3.8 -y
+conda activate drct
+conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.6 -c pytorch -c conda-forge
+cd DRCT
 pip install -r requirements.txt
 python setup.py develop
 ```
-
 ## How To Test
 
 - Refer to `./options/test` for the configuration file of the model to be tested, and prepare the testing data and pretrained model.  
@@ -77,15 +79,13 @@ The testing results will be saved in the `./results` folder.
 ## How To Train
 - Refer to `./options/train` for the configuration file of the model to train.
 - Preparation of training data can refer to [this page](https://github.com/XPixelGroup/BasicSR/blob/master/docs/DatasetPreparation.md). ImageNet dataset can be downloaded at the [official website](https://image-net.org/challenges/LSVRC/2012/2012-downloads.php).
+- Validation data can be download at [this page](https://github.com/ChaofWang/Awesome-Super-Resolution/blob/master/dataset.md).
 - The training command is like
 ```
 CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -m torch.distributed.launch --nproc_per_node=8 --master_port=4321 drct/train.py -opt options/train/train_DRCT_SRx2_from_scratch.yml --launcher pytorch
 ```
-- Note that the default batch size per gpu is 4, which will cost about 20G memory for each GPU.  
 
 The training logs and weights will be saved in the `./experiments` folder.
-
-
 
 ## Thanks
 

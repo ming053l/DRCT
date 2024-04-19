@@ -34,6 +34,9 @@ Advanced Computer Vision LAB, National Cheng Kung University
 - ✅ 2024-03-31: Release the first version of the paper at Arxiv.
 - ✅ 2024-04-14: DRCT is accepted by NTIRE 2024, CVPR.
 
+- The pretrained model will be released.
+- MambaDRCT will be released.
+- Real_DRCT_GAN will be released.
 
 ## Citations
 #### BibTeX

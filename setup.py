@@ -90,7 +90,7 @@ if __name__ == '__main__':
         author='Chia-Ming Lee',
         author_email='zuw408421476@gmail.com',
         keywords='computer vision, pytorch, basicsr, image restoration, super-resolution',
-        url=https://github.com/ming053l/DRCT',
+        url='https://github.com/ming053l/DRCT',
         include_package_data=True,
         packages=find_packages(exclude=('options', 'datasets', 'experiments', 'results', 'tb_logger', 'wandb')),
         classifiers=[

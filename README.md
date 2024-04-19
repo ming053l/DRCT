@@ -38,18 +38,6 @@ Advanced Computer Vision LAB, National Cheng Kung University
 - MambaDRCT will be released.
 - Real_DRCT_GAN will be released.
 
-## Citations
-#### BibTeX
-
-    @misc{hsu2024drct,
-      title={DRCT: Saving Image Super-resolution away from Information Bottleneck}, 
-      author={Chih-Chung Hsu and Chia-Ming Lee and Yi-Shiuan Chou},
-      year={2024},
-      eprint={2404.00722},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
-    }
-
 ## Environment
 - [PyTorch >= 1.7](https://pytorch.org/) **(Recommend **NOT** using torch 1.8!!! It would cause abnormal performance.)**
 - [BasicSR == 1.3.4.9](https://github.com/XPixelGroup/BasicSR/blob/master/INSTALL.md) 
@@ -88,8 +76,18 @@ CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -m torch.distributed.launch --nproc_
 
 The training logs and weights will be saved in the `./experiments` folder.
 
-## Thanks
+## Citations
+#### BibTeX
+    @misc{hsu2024drct,
+      title={DRCT: Saving Image Super-resolution away from Information Bottleneck}, 
+      author={Chih-Chung Hsu and Chia-Ming Lee and Yi-Shiuan Chou},
+      year={2024},
+      eprint={2404.00722},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+    }
 
+## Thanks
 A part of our work has been facilitated by the [HAT](https://github.com/XPixelGroup/HAT) framework, and we are grateful for its outstanding contribution.
 
 ## Contact

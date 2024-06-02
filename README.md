@@ -26,16 +26,16 @@ Advanced Computer Vision LAB, National Cheng Kung University
 | [HAT](https://github.com/JingyunLiang/SwinIR) |   9.62M    | 11.22G | 2053M | 42.18G | 33.04 | 29.23 | 28.00 | 27.97 | 32.48 |
 | DRCT |   10.44M  | 5.92G | 1857M | 7.92G | 33.11 | 29.35 | 28.18 | 28.06 | 32.59 |
 | [HAT-L](https://github.com/JingyunLiang/SwinIR) |   40.84M    | 76.69G | 5165M | 79.60G | 33.30 | 29.47 | 28.09 | 28.60 | 33.09 |
-| DRCT-L |  27.58M    | 9.20G | 4278M | 11.07G | 33.37 | 29.54 | 28.16 | 28.70 | 33.14 |
+| [DRCT-L](https://drive.google.com/file/d/1bVxvA6QFbne2se0CQJ-jyHFy94UOi3h5/view?usp=sharing) |  27.58M    | 9.20G | 4278M | 11.07G | 33.37 | 29.54 | 28.16 | 28.70 | 33.14 |
 
 
 ## Updates
 
 - ✅ 2024-03-31: Release the first version of the paper at Arxiv.
 - ✅ 2024-04-14: DRCT is accepted by NTIRE 2024, CVPR.
-
-- The pretrained model will be released.
-- MambaDRCT will be released.
+- ✅ 2024-06-02: The pretrained model is released. 
+- ❓ 2024-06-02: MambaDRCT is released. [arch.py](https://drive.google.com/file/d/1di4XKslSxkDyl8YeQ284qp3vDx3zP0ZL/view?usp=sharing)
+  * (Training process for DRCT + Mamba is very long, if you are interested about it, you can try to optimize/fit it up. Due to resources contraints, we do not intend to fix it.)
 - Real_DRCT_GAN will be released.
 
 ## Environment

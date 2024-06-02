@@ -22,7 +22,7 @@ However, SwinIR-based methods, such as HAT, CAT, DAT, etc., generally use Channe
 
 - Main Contribution
 
-Our work simply adds dense connections in SwinIR to improve performance and re-emphasizes the importance of dense connections in Swin-IR-based SR methods.
+Our work simply adds dense connections in SwinIR to improve performance and re-emphasizes the importance of dense connections in Swin-IR-based SR methods. Adding dense-connection within deep-feature extraction can stablize information flow, thereby boosting performance and keeping lightweight design (compared to the SOTA methods like HAT).
 
 
 

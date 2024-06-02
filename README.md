@@ -34,7 +34,7 @@ Advanced Computer Vision LAB, National Cheng Kung University
 - ✅ 2024-03-31: Release the first version of the paper at Arxiv.
 - ✅ 2024-04-14: DRCT is accepted by NTIRE 2024, CVPR.
 - ✅ 2024-06-02: The pretrained model is released. 
-- ❓ 2024-06-02: MambaDRCT is released. [arch.py](https://drive.google.com/file/d/1di4XKslSxkDyl8YeQ284qp3vDx3zP0ZL/view?usp=sharing)
+- ❌ 2024-06-02: MambaDRCT is released. [MODEL.PY](https://drive.google.com/file/d/1di4XKslSxkDyl8YeQ284qp3vDx3zP0ZL/view?usp=sharing)
   * (Training process for DRCT + Mamba is very long, if you are interested about it, you can try to optimize/fit it up. Due to resources contraints, we do not intend to fix it.)
 - Real_DRCT_GAN will be released.
 

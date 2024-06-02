@@ -14,7 +14,7 @@ Advanced Computer Vision LAB, National Cheng Kung University
 
 ## Overview
 
-- Background
+- Background and Motivation
 
 In CNN-based super-resolution (SR) methods, dense connections are widely considered to be an effective way to preserve information and improve performance. (introduced by RDN / RRDB in ESRGAN...etc.)
 

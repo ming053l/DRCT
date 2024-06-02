@@ -16,9 +16,9 @@ Advanced Computer Vision LAB, National Cheng Kung University
 
 - Background
 
-In CNN-based super-resolution methods, dense connections are widely considered to be an effective way to preserve information and improve performance. (RDN / RRDB in ESRGAN...etc.)
+In CNN-based super-resolution (SR) methods, dense connections are widely considered to be an effective way to preserve information and improve performance. (introduced by RDN / RRDB in ESRGAN...etc.)
 
-However, SwinIR-based methods, such as HAT, CAT, DAT, etc., generally use Channel Attention or design novel window attention to improve performance. These works ignore the information bottleneck that information flow will be lost deep in the network.
+However, SwinIR-based methods, such as HAT, CAT, DAT, etc., generally use Channel Attention Block or design novel and sophisticated Shift-Window Attention Mechanism to improve SR performance. These works ignore the information bottleneck that information flow will be lost deep in the network.
 
 - Main Contribution
 

@@ -65,6 +65,13 @@ cd DRCT
 pip install -r requirements.txt
 python setup.py develop
 ```
+## How To Inference on your own Dataset?
+
+```
+python inference.py --input_dir [input_dir ] --output_dir [input_dir ]  --model_path[model_path]
+```
+
+
 ## How To Test
 
 - Refer to `./options/test` for the configuration file of the model to be tested, and prepare the testing data and pretrained model.  

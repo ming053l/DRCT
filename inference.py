@@ -6,8 +6,8 @@ import os
 import torch
 
 from drct.archs.DRCT_arch import *
-from drct.data import *
-from drct.models import *
+#from drct.data import *
+#from drct.models import *
 
 def main():
     parser = argparse.ArgumentParser()

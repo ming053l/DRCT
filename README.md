@@ -45,10 +45,11 @@ Our work simply adds dense connections in SwinIR to improve performance and re-e
 
 - ✅ 2024-03-31: Release the first version of the paper at Arxiv.
 - ✅ 2024-04-14: DRCT is accepted by NTIRE 2024, CVPR.
-- ✅ 2024-06-02: The pretrained model is released. [model zoo](https://drive.google.com/drive/folders/1QJHdSfo-0eFNb96i8qzMJAPw31u9qZ7U?usp=sharing)
+- ✅ 2024-06-02: The pretrained DRCT-L is released.
 - ❌ 2024-06-02: MambaDRCT is released. [MODEL.PY](https://drive.google.com/file/d/1di4XKslSxkDyl8YeQ284qp3vDx3zP0ZL/view?usp=sharing)
   * Training process for DRCT + [MambaIR](https://github.com/csguoh/MambaIR) is very slow, if you are interested about it, you can try to optimize/fit it up. This may be caused by the Recurrent nature of mambaIR, coupled with the feature map reusing from DRCT, which causes the training speed to be too slow (it may also be a problem with the equipment we use or the package version).
   * We try to combine DRCT with SS2D in mambaIR. However, the CUDA version of our GPU cannot be updated to the latest version, which leads to difficulties in installing the package and optimizing the training speed. So we don't plan to continue fixting MambaDRCT. If you are interested, you are welcome to use this code.
+- ✅ 2024-06-09: The pretrained DRCT model is released. [model zoo](https://drive.google.com/drive/folders/1QJHdSfo-0eFNb96i8qzMJAPw31u9qZ7U?usp=sharing)
 - Real_DRCT_GAN will be released.
 
 ## Environment

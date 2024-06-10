@@ -52,8 +52,8 @@ Our work simply adds dense connections in SwinIR to improve performance and re-e
 - ✅ 2024-06-09: The pretrained DRCT model is released. [model zoo](https://drive.google.com/drive/folders/1QJHdSfo-0eFNb96i8qzMJAPw31u9qZ7U?usp=sharing)
 - ✅ 2024-06-11: We have received a large number of requests to release pre-trained models and training records from ImageNet for several downstream applications, please refer to the following link:
   
-[Training log on ImageNet](https://drive.google.com/file/d/1kl2r9TbQ8TR-sOdzvCcOZ9eqNsmIldGH/view?usp=drive_link) [Pretrained Weight (without fine-tuning on DF2K)](https://drive.google.com/file/d/1uLGwmSko9uF82X4OPOMw3xfM3stlnYZ-/view?usp=sharing)
-- Real_DRCT_GAN will be released. [Coming Soon]
+[[Training log on ImageNet]](https://drive.google.com/file/d/1kl2r9TbQ8TR-sOdzvCcOZ9eqNsmIldGH/view?usp=drive_link) [[Pretrained Weight (without fine-tuning on DF2K)]](https://drive.google.com/file/d/1uLGwmSko9uF82X4OPOMw3xfM3stlnYZ-/view?usp=sharing)
+- Real_DRCT_GAN will be released. [[Coming Soon]]
 
 ## Environment
 - [PyTorch >= 1.7](https://pytorch.org/) **(Recommend **NOT** using torch 1.8 and **1.12** !!! It would cause abnormal performance.)**

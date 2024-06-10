@@ -39,7 +39,7 @@ Our work simply adds dense connections in SwinIR to improve performance and re-e
 | [DRCT](https://drive.google.com/file/d/1jw2UWAersWZecPq-c_g5RM3mDOoc_cbd/view?usp=sharing) |   10.44M  | 5.92G | 1857M | 7.92G | 33.11 | 29.35 | 28.18 | 28.06 | 32.59 | - |
 | [HAT-L](https://github.com/XPixelGroup/HAT) |   40.84M    | 76.69G | 5165M | 79.60G | 33.30 | 29.47 | 28.09 | 28.60 | 33.09 | - |
 | [DRCT-L](https://drive.google.com/file/d/1bVxvA6QFbne2se0CQJ-jyHFy94UOi3h5/view?usp=sharing) |  27.58M   | 9.20G | 4278M | 11.07G | 33.37 | 29.54 | 28.16 | 28.70 | 33.14 | - |
-| [DRCT-L (pre-trained on ImageNet)](https://drive.google.com/file/d/1uLGwmSko9uF82X4OPOMw3xfM3stlnYZ-/view?usp=sharing) |  27.58M  | 9.20G | 4278M | 11.07G | 32.97 / 0.91 | 29.08 / 0.80  | - | - | - | [log](https://drive.google.com/file/d/1kl2r9TbQ8TR-sOdzvCcOZ9eqNsmIldGH/view?usp=drive_link)
+| [DRCT-L (pretrained on ImageNet)](https://drive.google.com/file/d/1uLGwmSko9uF82X4OPOMw3xfM3stlnYZ-/view?usp=sharing) |  27.58M  | 9.20G | 4278M | 11.07G | 32.97 / 0.91 | 29.08 / 0.80  | - | - | - | [log](https://drive.google.com/file/d/1kl2r9TbQ8TR-sOdzvCcOZ9eqNsmIldGH/view?usp=drive_link)
 
 ## Updates
 

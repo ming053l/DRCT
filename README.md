@@ -114,6 +114,14 @@ The training logs and weights will be saved in the `./experiments` folder.
       archivePrefix={arXiv},
       primaryClass={cs.CV}
     }
+    @InProceedings{Hsu_2024_CVPR,
+    author    = {Hsu, Chih-Chung and Lee, Chia-Ming and Chou, Yi-Shiuan},
+    title     = {DRCT: Saving Image Super-Resolution Away from Information Bottleneck},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2024},
+    pages     = {6133-6142}
+    }
 
 ## Thanks
 A part of our work has been facilitated by the [HAT](https://github.com/XPixelGroup/HAT) framework, and we are grateful for its outstanding contribution.

@@ -108,7 +108,7 @@ The training logs and weights will be saved in the `./experiments` folder.
 #### BibTeX
     @misc{hsu2024drct,
       title={DRCT: Saving Image Super-resolution away from Information Bottleneck}, 
-      author={Chih-Chung Hsu and Chia-Ming Lee and Yi-Shiuan Chou},
+      author = {Hsu, Chih-Chung and Lee, Chia-Ming and Chou, Yi-Shiuan},
       year={2024},
       eprint={2404.00722},
       archivePrefix={arXiv},

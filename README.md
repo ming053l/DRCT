@@ -47,12 +47,6 @@ Our work simply adds dense connections in SwinIR to improve performance and re-e
 | [DRCT-L](https://drive.google.com/file/d/1bVxvA6QFbne2se0CQJ-jyHFy94UOi3h5/view?usp=sharing) |  27.58M   | 9.20G | 4278M | 11.07G | 33.37 | 29.54 | 28.16 | 28.70 | 33.14 | - |
 | [DRCT-XL (pretrained on ImageNet)](https://drive.google.com/file/d/1uLGwmSko9uF82X4OPOMw3xfM3stlnYZ-/view?usp=sharing) |  -  | - | - | - | 32.97 / 0.91 | 29.08 / 0.80  | - | - | - | [log](https://drive.google.com/file/d/1kl2r9TbQ8TR-sOdzvCcOZ9eqNsmIldGH/view?usp=drive_link)
 
-HAT : 20772507
-HAT-L : 40846575
-
-DRCT-L: 27580719
-DRCT : 14139579
-
 ## Updates
 
 - ✅ 2024-03-31: Release the first version of the paper at Arxiv.

@@ -120,6 +120,9 @@ CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -m torch.distributed.launch --nproc_
 The training logs and weights will be saved in the `./experiments` folder.
 
 ## Citations
+
+If our work is helpful to your reaearch, please kindly cite our work. Thank!
+
 #### BibTeX
     @misc{hsu2024drct,
       title={DRCT: Saving Image Super-resolution away from Information Bottleneck}, 

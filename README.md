@@ -71,7 +71,7 @@ Our work simply adds dense connections in SwinIR to improve performance and re-e
 
 - ✅ 2024-06-12: DRCT have been selected for oral presentation in NTIRE!
 - 💫 2024-06-14: Real_DRCT_GAN will be released in a few day. [[MSE_Model]](https://drive.google.com/drive/folders/1Y4LRVrIaYLHZo2X2z684bg5zzg5FSSRF?usp=sharing) 
-- ✅ 2024-06-14: We have received a large number of requests to release Feature maps and LAM Visualization, please refer to *./Visualization*.
+- ✅ 2024-06-14: We have received a large number of requests to release Feature maps and LAM Visualization, please refer to *.Visualization/*.
 
   
 ## Environment

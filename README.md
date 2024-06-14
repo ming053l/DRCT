@@ -48,7 +48,7 @@ Our work simply adds dense connections in SwinIR to improve performance and re-e
 | [DRCT-XL (pretrained on ImageNet)](https://drive.google.com/file/d/1uLGwmSko9uF82X4OPOMw3xfM3stlnYZ-/view?usp=sharing) |  -  | - | - | - | 32.97 / 0.91 | 29.08 / 0.80  | - | - | - | [log](https://drive.google.com/file/d/1kl2r9TbQ8TR-sOdzvCcOZ9eqNsmIldGH/view?usp=drive_link)
 
 
-**Real DRCT GAN x4. (Coming Soon)**
+**Real DRCT GAN SRx4. (Coming Soon)**
 
 | Model | Training Data | Checkpoint | Log |
 |:-----------:|:---------:|:-------:|:--------:|

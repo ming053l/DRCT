@@ -53,7 +53,7 @@ Our work simply adds dense connections in SwinIR to improve performance and re-e
 | Model | Training Data | Checkpoint | Log |
 |:-----------:|:---------:|:-------:|:--------:|
 | [Real-DRCT-GAN_MSE_Model](https://drive.google.com/drive/folders/1Y4LRVrIaYLHZo2X2z684bg5zzg5FSSRF?usp=sharing) | [DF-2K + OST300](https://www.kaggle.com/datasets/thaihoa1476050/df2k-ost/code)  | [Checkpoint](https://drive.google.com/file/d/1rfV_ExLtfjdHygWGJ3VUYgyn9UkzSwbZ/view?usp=sharing) |  [Log](https://drive.google.com/file/d/1kl2r9TbQ8TR-sOdzvCcOZ9eqNsmIldGH/view?usp=drive_link) | 
-| [Real-DRCT-GAN_Finetuned from MSE] | [DF-2K + OST300](https://www.kaggle.com/datasets/thaihoa1476050/df2k-ost/code)  | Coming Soon | Coming Soon | 
+| Real-DRCT-GAN_Finetuned from MSE | [DF-2K + OST300](https://www.kaggle.com/datasets/thaihoa1476050/df2k-ost/code)  | Coming Soon | Coming Soon | 
 
 
 ## Updates

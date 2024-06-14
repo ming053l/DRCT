@@ -70,7 +70,7 @@ Our work simply adds dense connections in SwinIR to improve performance and re-e
 [[Training log on ImageNet]](https://drive.google.com/file/d/1kl2r9TbQ8TR-sOdzvCcOZ9eqNsmIldGH/view?usp=drive_link) [[Pretrained Weight (without fine-tuning on DF2K)]](https://drive.google.com/file/d/1uLGwmSko9uF82X4OPOMw3xfM3stlnYZ-/view?usp=sharing)
 
 - ✅ 2024-06-12: DRCT have been selected for oral presentation in NTIRE!
-- ✅ 2024-06-14: Real_DRCT_GAN will be released in a few day. [[MSE_Model]](https://drive.google.com/drive/folders/1Y4LRVrIaYLHZo2X2z684bg5zzg5FSSRF?usp=sharing) 
+- 💫 2024-06-14: Real_DRCT_GAN will be released in a few day. [[MSE_Model]](https://drive.google.com/drive/folders/1Y4LRVrIaYLHZo2X2z684bg5zzg5FSSRF?usp=sharing) 
 
 ## Environment
 - [PyTorch >= 1.7](https://pytorch.org/) **(Recommend **NOT** using torch 1.8 and **1.12** !!! It would cause abnormal performance.)**

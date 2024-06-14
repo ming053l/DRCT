@@ -47,6 +47,15 @@ Our work simply adds dense connections in SwinIR to improve performance and re-e
 | [DRCT-L](https://drive.google.com/file/d/1bVxvA6QFbne2se0CQJ-jyHFy94UOi3h5/view?usp=sharing) |  27.58M   | 9.20G | 4278M | 11.07G | 33.37 | 29.54 | 28.16 | 28.70 | 33.14 | - |
 | [DRCT-XL (pretrained on ImageNet)](https://drive.google.com/file/d/1uLGwmSko9uF82X4OPOMw3xfM3stlnYZ-/view?usp=sharing) |  -  | - | - | - | 32.97 / 0.91 | 29.08 / 0.80  | - | - | - | [log](https://drive.google.com/file/d/1kl2r9TbQ8TR-sOdzvCcOZ9eqNsmIldGH/view?usp=drive_link)
 
+
+**Real DRCT GAN x4. (Coming Soon)**
+
+| Model | Training Data | Checkpoint | Log |
+|:-----------:|:---------:|:-------:|:--------:|
+| [Real-DRCT-GAN_MSE_Model](https://drive.google.com/drive/folders/1Y4LRVrIaYLHZo2X2z684bg5zzg5FSSRF?usp=sharing) | [DF-2K + OST300](https://www.kaggle.com/datasets/thaihoa1476050/df2k-ost/code)  | [Checkpoint](https://drive.google.com/file/d/1rfV_ExLtfjdHygWGJ3VUYgyn9UkzSwbZ/view?usp=sharing) |  [Log](https://drive.google.com/file/d/1kl2r9TbQ8TR-sOdzvCcOZ9eqNsmIldGH/view?usp=drive_link) | 
+| [Real-DRCT-GAN_Finetuned from MSE] | [DF-2K + OST300](https://www.kaggle.com/datasets/thaihoa1476050/df2k-ost/code)  | Coming Soon | Coming Soon | 
+
+
 ## Updates
 
 - ✅ 2024-03-31: Release the first version of the paper at Arxiv.
@@ -61,7 +70,7 @@ Our work simply adds dense connections in SwinIR to improve performance and re-e
 [[Training log on ImageNet]](https://drive.google.com/file/d/1kl2r9TbQ8TR-sOdzvCcOZ9eqNsmIldGH/view?usp=drive_link) [[Pretrained Weight (without fine-tuning on DF2K)]](https://drive.google.com/file/d/1uLGwmSko9uF82X4OPOMw3xfM3stlnYZ-/view?usp=sharing)
 
 - ✅ 2024-06-12: DRCT have been selected for oral presentation in NTIRE!
-- Real_DRCT_GAN will be released. [[Coming Soon]] 
+- ✅ 2024-06-14: Real_DRCT_GAN will be released in a few day. [[MSE_Model]](https://drive.google.com/drive/folders/1Y4LRVrIaYLHZo2X2z684bg5zzg5FSSRF?usp=sharing) 
 
 ## Environment
 - [PyTorch >= 1.7](https://pytorch.org/) **(Recommend **NOT** using torch 1.8 and **1.12** !!! It would cause abnormal performance.)**

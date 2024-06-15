@@ -11,8 +11,6 @@
 
 
 
-
-### DRCT
 ## [[Paper Link]](https://arxiv.org/abs/2404.00722) [[Project Page]](https://allproj002.github.io/drct.github.io/) [[Poster]](https://drive.google.com/file/d/1zR9wSwqCryLeKVkJfTuoQILKiQdf_Vdz/view?usp=sharing) [[Model zoo]](https://drive.google.com/drive/folders/1QJHdSfo-0eFNb96i8qzMJAPw31u9qZ7U?usp=sharing) [[Visual Results]](https://drive.google.com/drive/folders/15raaESdkHD-7cHWBVDzDitTH8_h5_0uE?usp=sharing) [[Slide]](https://docs.google.com/presentation/d/1MxPPtgQZ61GFSr3YfGOm9scm23bbbXRj/edit?usp=sharing&ouid=105932000013245886245&rtpof=true&sd=true) [[Video]](https://drive.google.com/file/d/17dB47E8I2ME-shhxAWDlQCyCuJRn79d_/view?usp=sharing)
 
 [Chih-Chung Hsu](https://cchsu.info/), [Chia-Ming Lee](https://ming053l.github.io/), [Yi-Shiuan Chou](https://nelly0421.github.io/)

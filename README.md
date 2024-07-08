@@ -72,7 +72,7 @@ Our work simply adds dense connections in SwinIR to improve performance and re-e
 - 💫 2024-06-14: Real_DRCT_GAN will be released in a few day. [[MSE_Model]](https://drive.google.com/drive/folders/1Y4LRVrIaYLHZo2X2z684bg5zzg5FSSRF?usp=sharing) Stay tuned!
 - ✅ 2024-06-14: We have received a large number of requests to release Feature maps and LAM Visualization, please refer to *./Visualization/*.
 - 2024-06-24: DRCT-v2 is on the development.
-
+- 2024-07-08: Update the inference (with half precision) file, big thanks for @zelenooki87!
   
 ## Environment
 - [PyTorch >= 1.7](https://pytorch.org/) **(Recommend **NOT** using torch 1.8 and **1.12** !!! It would cause abnormal performance.)**
@@ -143,6 +143,6 @@ If our work is helpful to your reaearch, please kindly cite our work. Thank!
 
 ## Thanks
 A part of our work has been facilitated by [HAT](https://github.com/XPixelGroup/HAT), [SwinIR](https://github.com/JingyunLiang/SwinIR), [LAM](https://github.com/XPixelGroup/X-Low-level-Interpretation) framework, and we are grateful for their outstanding contributions.
-
+A part of our work are contributed by @zelenooki87, thanks for your big contributions and suggestions!
 ## Contact
 If you have any question, please email zuw408421476@gmail.com to discuss with the author.

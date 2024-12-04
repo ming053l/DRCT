@@ -54,6 +54,14 @@ Our work simply adds dense connections in SwinIR to improve performance and re-e
 | [Real-DRCT-GAN_MSE_Model](https://drive.google.com/drive/folders/1emyaw6aQvhFgFC_RjK1Qo9c1sTRr-avk?usp=sharing) | [DF2K + OST300](https://www.kaggle.com/datasets/thaihoa1476050/df2k-ost/code)  | [Checkpoint](https://drive.google.com/drive/folders/1emyaw6aQvhFgFC_RjK1Qo9c1sTRr-avk?usp=sharing) |  [Log](https://drive.google.com/file/d/1kl2r9TbQ8TR-sOdzvCcOZ9eqNsmIldGH/view?usp=drive_link) | 
 | [Real-DRCT-GAN_Finetuned from MSE](https://drive.google.com/drive/folders/1emyaw6aQvhFgFC_RjK1Qo9c1sTRr-avk?usp=sharing) | [DF2K + OST300](https://www.kaggle.com/datasets/thaihoa1476050/df2k-ost/code)  |  [Checkpoint](https://drive.google.com/drive/folders/1emyaw6aQvhFgFC_RjK1Qo9c1sTRr-avk?usp=sharing)  |  [Log](https://drive.google.com/file/d/15aBV-FFi7I4esUb1vzRmrjMccc5cEEY4/view?usp=drive_link) | 
 
+## Real DRCT GAN Comparison (Thanks to [Phhofm](https://github.com/Phhofm)!)
+
+The images below demonstrate the enhancement capabilities of the 4xRealWebPhoto_v4_drct-l model compared to standard 4x Nearest Neighbor upscaling:
+
+Showcase:
+[Slow.pic](https://slow.pics/s/VOKVChT9) link as interactive comparison with a Slider
+
+<img src=".\figures\real-drct.png" width="400"/>
 
 ## Updates
 
@@ -147,6 +155,8 @@ If our work is helpful to your reaearch, please kindly cite our work. Thank!
 A part of our work has been facilitated by [HAT](https://github.com/XPixelGroup/HAT), [SwinIR](https://github.com/JingyunLiang/SwinIR), [LAM](https://github.com/XPixelGroup/X-Low-level-Interpretation) framework, and we are grateful for their outstanding contributions.
 
 A part of our work are contributed by @zelenooki87, thanks for your big contributions and suggestions!
+
+Special thanks to [Phhofm](https://github.com/Phhofm) for providing the 4xRealWebPhoto_v4_drct-l model, which has significantly enhanced our image processing capabilities. The model is available at [Phhofm/models](https://github.com/Phhofm/models/releases/tag/4xRealWebPhoto_v4_drct-l).
 
 ## Contact
 If you have any question, please email zuw408421476@gmail.com to discuss with the author.

@@ -17,7 +17,7 @@
 
 Advanced Computer Vision LAB, National Cheng Kung University
 
-## Overview
+## Overview (SwinIR with Dense Connection)
 
 - Background and Motivation
 
@@ -47,12 +47,12 @@ Our work simply adds dense connections in SwinIR to improve performance and re-e
 | [DRCT-XL (pretrained on ImageNet)](https://drive.google.com/file/d/1uLGwmSko9uF82X4OPOMw3xfM3stlnYZ-/view?usp=sharing) |  -  | - | - | - | 32.97 / 0.91 | 29.08 / 0.80  | - | - | - | [log](https://drive.google.com/file/d/1kl2r9TbQ8TR-sOdzvCcOZ9eqNsmIldGH/view?usp=drive_link)
 
 
-**Real DRCT GAN SRx4. (Coming Soon)**
+**Real DRCT GAN SRx4. (Updated)**
 
 | Model | Training Data | Checkpoint | Log |
 |:-----------:|:---------:|:-------:|:--------:|
-| [Real-DRCT-GAN_MSE_Model](https://drive.google.com/drive/folders/1Y4LRVrIaYLHZo2X2z684bg5zzg5FSSRF?usp=sharing) | [DF2K + OST300](https://www.kaggle.com/datasets/thaihoa1476050/df2k-ost/code)  | [Checkpoint](https://drive.google.com/file/d/1rfV_ExLtfjdHygWGJ3VUYgyn9UkzSwbZ/view?usp=sharing) |  [Log](https://drive.google.com/file/d/1kl2r9TbQ8TR-sOdzvCcOZ9eqNsmIldGH/view?usp=drive_link) | 
-| [Real-DRCT-GAN_Finetuned from MSE](https://drive.google.com/file/d/1DnEb1G58xumuMmXoqiLG2lbYZOVbz_Kp/view?usp=drive_link) | [DF2K + OST300](https://www.kaggle.com/datasets/thaihoa1476050/df2k-ost/code)  |  [Checkpoint](https://drive.google.com/file/d/1DnEb1G58xumuMmXoqiLG2lbYZOVbz_Kp/view?usp=drive_link)  |  [Log](https://drive.google.com/file/d/15aBV-FFi7I4esUb1vzRmrjMccc5cEEY4/view?usp=drive_link) | 
+| [Real-DRCT-GAN_MSE_Model](https://drive.google.com/drive/folders/1emyaw6aQvhFgFC_RjK1Qo9c1sTRr-avk?usp=sharing) | [DF2K + OST300](https://www.kaggle.com/datasets/thaihoa1476050/df2k-ost/code)  | [Checkpoint](https://drive.google.com/drive/folders/1emyaw6aQvhFgFC_RjK1Qo9c1sTRr-avk?usp=sharing) |  [Log](https://drive.google.com/file/d/1kl2r9TbQ8TR-sOdzvCcOZ9eqNsmIldGH/view?usp=drive_link) | 
+| [Real-DRCT-GAN_Finetuned from MSE](https://drive.google.com/drive/folders/1emyaw6aQvhFgFC_RjK1Qo9c1sTRr-avk?usp=sharing) | [DF2K + OST300](https://www.kaggle.com/datasets/thaihoa1476050/df2k-ost/code)  |  [Checkpoint](https://drive.google.com/drive/folders/1emyaw6aQvhFgFC_RjK1Qo9c1sTRr-avk?usp=sharing)  |  [Log](https://drive.google.com/file/d/15aBV-FFi7I4esUb1vzRmrjMccc5cEEY4/view?usp=drive_link) | 
 
 
 ## Updates
@@ -69,10 +69,12 @@ Our work simply adds dense connections in SwinIR to improve performance and re-e
 [[Training log on ImageNet]](https://drive.google.com/file/d/1kl2r9TbQ8TR-sOdzvCcOZ9eqNsmIldGH/view?usp=drive_link) [[Pretrained Weight (without fine-tuning on DF2K)]](https://drive.google.com/file/d/1uLGwmSko9uF82X4OPOMw3xfM3stlnYZ-/view?usp=sharing)
 
 - ✅ 2024-06-12: DRCT have been selected for oral presentation in NTIRE!
-- 💫 2024-06-14: Real_DRCT_GAN will be released in a few day. [[MSE_Model]](https://drive.google.com/drive/folders/1Y4LRVrIaYLHZo2X2z684bg5zzg5FSSRF?usp=sharing) Stay tuned!
 - ✅ 2024-06-14: We have received a large number of requests to release Feature maps and LAM Visualization, please refer to *./Visualization/*.
 - 2024-06-24: DRCT-v2 is on the development.
-- 2024-07-08: Update the inference (with half precision) file, big thanks for @zelenooki87!
+- ✅ 2024-07-08: Update the inference (with half precision) file, big thanks for @zelenooki87!
+- ✅ 2024-12-04: Update the mismatched part after re-training (SRx2). (Please see Arxiv)
+- ✅ 2024-12-04: Update the Model architecture description errors. (Please see Arxiv)
+- ✅ 2024-12-04: Update the Real-DRCT-GAN in google drive.
   
 ## Environment
 - [PyTorch >= 1.7](https://pytorch.org/) **(Recommend **NOT** using torch 1.8 and **1.12** !!! It would cause abnormal performance.)**

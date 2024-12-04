@@ -61,7 +61,7 @@ The images below demonstrate the enhancement capabilities of the 4xRealWebPhoto_
 Showcase:
 [Slow.pic](https://slow.pics/s/VOKVChT9) link as interactive comparison with a Slider
 
-<img src=".\figures\real-drct.png" width="400"/>
+<img src=".\figures\real-drct.png" width="1000"/>
 
 ## Updates
 
